@@ -9,7 +9,7 @@ $(document).ready(function() {
       var divVideo = $("<div/>")
         .attr({
           class: "divVideo"
-        }).html("<video id=\"myVideo\" controls autoplay width=\"300\" height=\"200\"><source src=\"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4\" type=\"video/mp4\"></video>");
+        }).html("<video id=\"myVideo\" controls autoplay width=\"300\" height=\"200\"><source src=\"big_buck_bunny.mp4\" type=\"video/mp4\"></video>");
 
       resetPositionToTop();
 
